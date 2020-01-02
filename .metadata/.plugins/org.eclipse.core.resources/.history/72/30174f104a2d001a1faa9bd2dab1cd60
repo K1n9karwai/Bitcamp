@@ -1,0 +1,21 @@
+package abstract_1;
+
+public class JapanMoney extends Money{
+	
+	private int money;
+	private double jm;
+	
+	public JapanMoney(int money) {
+		this.money = money;
+	}
+	
+	@Override
+	public void calcMoney() {
+		double jm = money/10.64;
+	}
+	
+	public void dispMoney() {
+		
+	}
+
+}

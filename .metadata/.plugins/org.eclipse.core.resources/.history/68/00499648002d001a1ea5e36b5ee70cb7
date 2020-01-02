@@ -1,0 +1,23 @@
+package inheritance;
+
+class Final{
+	public final String FRUIT = "»ç°ú";
+}
+//-------------------
+public class FinalMain {
+
+	public static void main(String[] args) {
+		
+		final int AGE = 25;
+		//AGE++; - error
+		
+		final int AGE2;
+		AGE2 = 30;
+		//AGE2 = 35; -error
+		
+		Final fn = new Final();
+		
+		System.out.println("FRUIT = " + fn.FRUIT);
+		
+	}
+}

@@ -1,0 +1,12 @@
+package abstract_1;
+
+public class AbstractTest { //POJO (Plain Old Java Object)
+
+	private String name;
+	
+	public void setName(String name);
+	
+	public String getName() { //±¸Çö
+		return name;
+	}
+}

@@ -1,0 +1,26 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class ExamMain {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		int people;
+		
+		System.out.print("인웝수 입력 : ");
+		people = Integer.parseInt(scan.next());
+		Exam[] ex = new Exam[people];
+		
+		for(int i=0; i<people; i++) {
+			ex[i] = new Exam();
+		}
+		
+		System.out.println("이름\t1 2 3 4 5\t점수");
+		for(int i=0; i<people; i++) {
+			ex[i].getOx();
+		}
+		
+	}
+}

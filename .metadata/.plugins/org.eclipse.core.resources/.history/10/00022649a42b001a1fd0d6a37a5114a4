@@ -1,0 +1,12 @@
+package inheritance;
+
+public class SalaryManager {
+
+	EmployeeDTO em = new EmployeeDTO();
+	
+	public void list() {
+		System.out.println(name + "\t" + position + "\t" +
+							basepay + "\t" + benefit + "\t" +
+							taxRate + "\t" +  salary);
+	}
+}

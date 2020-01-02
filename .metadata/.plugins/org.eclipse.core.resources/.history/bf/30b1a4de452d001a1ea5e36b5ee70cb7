@@ -1,0 +1,8 @@
+package abstract_1;
+
+public class Money {
+
+	public Money() {
+		Scanner scan = new Scanner(System.in);
+	}
+}

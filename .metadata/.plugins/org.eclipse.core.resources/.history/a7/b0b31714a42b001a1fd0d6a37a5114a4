@@ -1,0 +1,35 @@
+package inheritance;
+
+public class EmployeeDTO {
+
+	private String name;
+	private String position;
+	private int basepay;
+	private int benefit;
+	private double taxRate;
+	private int salary;
+	
+	public EmployeeDTO(String name, String position, int basepay, int benefit) {
+		this.name = name;
+		this.position = position;
+		this.basepay = basepay;
+		this.benefit = benefit;
+		
+		int total = basepay + benefit;
+		
+		if(total<2000000) {
+			taxRate = 0.01;
+			salary = (int)(total - total*taxRate);
+		} else if(total<4000000) {
+			taxRate = 0.02;
+		} else {
+			taxRate = 0.03;
+		}
+	}
+	
+	public void list() {
+		System.out.println(name + "\t" + position + "\t" +
+							basepay + "\t" + benefit + "\t" +
+							taxRate + "\t" +  salary);
+	}
+}

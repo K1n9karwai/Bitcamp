@@ -1,0 +1,24 @@
+package inheritance;
+
+import java.awt.Color;
+import java.awt.Frame;
+
+public class WindowTest extends Frame {
+
+	public WindowTest() {
+		
+		Frame f1 = new Frame("내가 만든 윈도우");
+		//setBackground(Color.cyan);
+		f1.setBackground(new Color(177, 151, 132));
+		//this.setSize(300, 400);
+		f1.setBounds(800,250,300,400);
+		f1.setVisible(true);
+
+	}
+	
+	public static void main(String[] args) {
+		
+		new WindowTest();
+		
+	}
+}

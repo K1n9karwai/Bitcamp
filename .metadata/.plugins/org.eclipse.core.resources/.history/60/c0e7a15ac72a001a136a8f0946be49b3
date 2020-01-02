@@ -1,0 +1,43 @@
+package class_2;
+
+public class StaticTest {
+
+	private int a; //필드, 인스턴스 변수
+	private static int b; //필드, 클래스변수
+	
+	public StaticTest() {
+		System.out.println("기본 생성자");
+		a=3;
+		b=4;
+	}
+	
+	public void calc() {
+		a++;
+		b++;
+	}
+	
+	public void disp() {
+		System.out.println("a = " + a + "\t b = " + b);
+	}
+	
+	public static void main(String[] args) {
+		
+		StaticTest st = new StaticTest();
+		st.calc();
+		st.disp();
+		System.out.println();
+		
+		StaticTest st2 = new StaticTest();
+		st2.calc();
+		st2.disp();
+		System.out.println();
+		
+		StaticTest st3 = new StaticTest();
+		st3.calc();
+		st3.disp();
+		System.out.println();
+		
+		
+	}
+	
+}

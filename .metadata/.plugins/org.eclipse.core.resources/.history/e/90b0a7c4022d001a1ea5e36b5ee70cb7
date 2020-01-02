@@ -1,0 +1,22 @@
+package inheritance;
+
+//class EnumColor {
+//	static final String RED = "»¡°­";
+//	static final String GREEN = "ÃÊ·Ï";
+//	static final String BLUE = "ÆÄ¶û";
+//	static final String MAGENTA = "º¸¶ó";
+//}
+
+enum EnumColor {
+	RED, GREEN, BLUE, MAGENTA
+}
+
+public class EnumMain {
+
+	public static void main(String[] args) {
+		
+		System.out.println(EnumColor.RED);
+		System.out.println();
+		
+	}
+}

@@ -1,0 +1,14 @@
+package abstract_1;
+
+public class USMoney {
+
+	@Override
+	public void calcMoney() {
+		
+	}
+	
+	public void dispMoney() {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package inheritance;
+
+public class SalaryManager {
+
+	
+	public void list() {
+		System.out.println(name + "\t" + position + "\t" +
+							basepay + "\t" + benefit + "\t" +
+							taxRate + "\t" +  salary);
+	}
+}

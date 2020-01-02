@@ -1,0 +1,13 @@
+package class_2;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		
+		String a = "apple"; //literal »ý¼º
+		
+		String c = new String("apple");
+		
+		
+	}
+}

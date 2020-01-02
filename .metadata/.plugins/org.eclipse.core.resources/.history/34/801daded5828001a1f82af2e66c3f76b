@@ -1,0 +1,29 @@
+package constructor;
+
+class VarArgsTest {
+	
+	public int sum(int x, int y) {
+		return x + y;
+	}
+	
+	public int sum(int x, int y, int z) {
+		return x + y + z;
+	}
+	
+	public int sum(int x, int y, int z, int r) {
+		return
+	}
+}
+
+public class VarArgs {
+
+	public static void main(String[] args) {
+		
+		VarArgs va = new VarArgs();
+		System.out.println("гу = " + va.sum(10,20));
+		System.out.println("гу = " + va.sum(10,20,30));
+		System.out.println("гу = " + va.sum(10,20,30,40));
+		
+		
+	}
+}

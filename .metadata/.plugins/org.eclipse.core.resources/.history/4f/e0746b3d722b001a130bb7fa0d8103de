@@ -1,0 +1,17 @@
+package inheritance;
+
+class ShapeTest {
+	protected double area;
+}
+//---------------------
+//---------------------
+//---------------------
+//---------------------
+public class ShapeMain {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

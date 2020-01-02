@@ -1,0 +1,12 @@
+package abstract_1;
+
+import java.util.Date;
+
+public class Today {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		System.out.println("¿À´Ã ³¯Â¥ : " + date);
+	}
+}

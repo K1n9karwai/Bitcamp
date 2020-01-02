@@ -1,0 +1,11 @@
+package inheritance;
+
+public class SubTest extends SuperTest {
+
+	private String name;
+	private int age;
+	public static void main(String[] args) {
+		SubTest aa = new SubTest(); //생성자 2번 호출
+		
+	}
+}

@@ -1,0 +1,25 @@
+package abstract_1;
+
+import java.awt.Color;
+import java.awt.Frame;
+import java.awt.Graphics;
+
+public class WindowTest extends Frame {
+	
+	public WindowTest() {
+		
+		
+		
+		setBounds(800, 250, 300, 400);
+		setVisible(true);
+	}
+	
+	public void paint(Graphics g) {
+		g.drawString("¿ÃπÃ¡ˆ", 50, 80);
+	}
+
+	public static void main(String[] args) {
+		
+		WindowTest wt = new WindowTest();
+	}
+}

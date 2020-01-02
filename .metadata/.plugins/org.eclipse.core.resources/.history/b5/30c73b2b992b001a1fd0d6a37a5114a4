@@ -1,0 +1,15 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class ExamMain {
+
+	public static void main(String[] args) {
+		
+		int people;
+		Scanner scan = new Scanner(System.in);
+		
+		scan.next();
+		
+	}
+}

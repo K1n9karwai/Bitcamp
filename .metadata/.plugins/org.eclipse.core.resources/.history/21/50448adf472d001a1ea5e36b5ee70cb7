@@ -1,0 +1,18 @@
+package abstract_1;
+
+import java.util.Scanner;
+
+public class MoneyMain {
+
+	public static void main(String[] args) {
+
+		int money;
+		Scanner scan = new Scanner(System.in);
+
+		System.out.print("현금 입력 : ");
+		money = scan.nextInt();
+
+		System.out.print("1. 달러 2. 엔화 3. 위안 : ");
+		int num = scan.nextInt();
+	}
+}

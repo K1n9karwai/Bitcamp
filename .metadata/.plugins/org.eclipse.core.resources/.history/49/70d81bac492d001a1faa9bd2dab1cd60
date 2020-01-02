@@ -1,0 +1,15 @@
+package abstract_1;
+
+public class ChinaMoney extends Money {
+	
+	@Override
+	public void calcMoney() {
+		
+	}
+	
+	public void dispMoney() {
+		
+	}
+
+
+}

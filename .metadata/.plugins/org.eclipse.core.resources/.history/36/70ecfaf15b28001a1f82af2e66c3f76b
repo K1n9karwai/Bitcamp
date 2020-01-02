@@ -1,0 +1,13 @@
+package constructor;
+
+public class RandomTest {
+
+	public RandomTest() {
+		System.out.println("³­¼ö = " + Math.random());
+	}
+	
+	public static void main(String[] args) {
+		
+		RandomTest rt = new RandomTest();
+	}
+}

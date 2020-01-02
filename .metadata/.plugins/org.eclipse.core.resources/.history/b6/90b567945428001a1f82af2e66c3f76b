@@ -1,0 +1,15 @@
+package constructor;
+
+class ConstructorTest {
+	private String name;
+	private int age;
+}
+
+public class ConstructorMain {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

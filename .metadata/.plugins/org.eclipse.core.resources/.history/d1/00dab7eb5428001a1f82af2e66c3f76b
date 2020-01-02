@@ -1,0 +1,23 @@
+package constructor;
+
+class ConstructorTest {
+	private String name;
+	private int age;
+	
+	public ConstructorTest() {
+		System.out.println("기본 생성자");
+	}
+	
+	public String getName() {
+		return name;
+	}
+}
+
+public class ConstructorMain {
+
+	public static void main(String[] args) {
+		
+		ConstructorTest aa = new ConstructorTest();
+		
+	}
+}

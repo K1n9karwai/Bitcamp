@@ -1,0 +1,23 @@
+package class_1;
+
+public class Practice2_ShapeTest {
+	private double pi = 3.141592;
+	private double area;
+	
+	public void setArea(int x) {
+		area = pi*(x*x);
+	}
+	
+	public void setArea(int x, int y) {
+		area = (double)(x*y)/2;
+	}
+	
+	public void setArea(int x, int y, int z) {
+		area = (double)((x+y)*z)/2;
+	}
+	
+	public double getArea() {
+		return area;
+	}
+	
+}

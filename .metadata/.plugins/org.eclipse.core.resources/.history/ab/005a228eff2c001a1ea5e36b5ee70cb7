@@ -1,0 +1,15 @@
+package inheritance;
+
+class Final{
+	public final String FRUIT = "»ç°ú";
+}
+//-------------------
+public class FinalMain {
+
+	public static void main(String[] args) {
+		
+		final int AGE = 25;
+		AGE++;
+		
+	}
+}

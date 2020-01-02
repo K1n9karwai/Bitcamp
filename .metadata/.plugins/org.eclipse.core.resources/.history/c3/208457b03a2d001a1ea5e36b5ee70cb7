@@ -1,0 +1,40 @@
+package abstract_1;
+
+import java.util.Calendar;
+import java.util.Scanner;
+
+public class CalendarTest {
+
+	private int year;
+	private int month;
+	
+	Calendar cal = Calendar.getInstance();
+	
+	public CalendarTest() {
+		Scanner scan = new Scanner(System.in);
+
+		System.out.print("년도 입력 : ");
+		this.year = scan.nextInt();
+		System.out.print("월 입력 : ");
+		this.month = scan.nextInt();
+		
+		calculator();
+		display();
+	}
+	
+	public void calculator() {
+		
+//		int year = cal.get(this.year);
+//		int month = cal.get(this.month);
+		cal.set(this.year, this.month-1, 1);
+		
+		
+	}
+	
+	public void display() {
+		System.out.println("일\t월\t화\t수\t목\t금\t토");
+		System.out.println();
+		
+	}
+
+}

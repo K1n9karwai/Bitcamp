@@ -1,0 +1,11 @@
+package inheritance;
+
+public class EmployeeDTO {
+
+	private String name;
+	private String position;
+	private int basepay;
+	private int benefit;
+	private double taxRate;
+	private int Salary;
+}

@@ -1,0 +1,15 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class Exam {
+	private String name;
+	private String dap;
+	Scanner scan = new Scanner(System.in);
+	
+	public Exam() {
+		System.out.print("이름 입력 : ");
+		name = scan.next();
+		
+	}
+}

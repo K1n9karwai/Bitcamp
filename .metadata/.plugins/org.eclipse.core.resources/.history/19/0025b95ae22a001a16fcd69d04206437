@@ -1,0 +1,38 @@
+package class_2;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+		String aa = null;
+		String bb;
+		String cc;
+		int cnt = 0;
+		Scanner scan = new Scanner(System.in);
+
+		while (true) {
+
+			System.out.print("문자열 입력 : ");
+			aa = scan.next();
+			System.out.print("현재 문자열 입력 : ");
+			bb = scan.next();
+			System.out.print("바꿀 문자열 입력 : ");
+			cc = scan.next();
+
+			for (int i = 0; i < aa.length(); i++) {
+
+				aa = aa.toLowerCase();
+
+				if (aa.indexOf(bb) != -1) {
+					aa = aa.replace(bb, cc);
+					cnt++;
+				}
+				System.out.println(aa);
+				System.out.println(cnt + "번 치환");
+			}
+
+		}
+	}
+}

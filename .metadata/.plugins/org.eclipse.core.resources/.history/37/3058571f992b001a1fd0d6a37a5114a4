@@ -1,0 +1,14 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class ExamMain {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		scan.next();
+		
+	}
+}

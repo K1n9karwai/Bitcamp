@@ -1,0 +1,19 @@
+package class_2;
+
+import static java.lang.Math.random;
+import static java.lang.Math.pow;
+import static java.lang.String.format;
+import static java.lang.System.out;
+import static java.lang.System.in;
+
+public class ImportStatic {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(in);
+		out.println("난수 = " + random());
+		out.println("제곱 = " + pow(2, 5));
+		out.println("소수 이하 2째자리 = " + format("%.2f", 12.34567));
+		
+	}
+}

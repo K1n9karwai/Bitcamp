@@ -1,0 +1,24 @@
+package class_2;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		
+		String a = "apple"; //literal 생성
+		String b = "apple";
+		if(a==b) System.out.println("a와 b의 참조값은 같다.");
+		else System.out.println("a와 b의 참조값은 다르다.");
+		if(a.equals(b))
+		System.out.println();
+		
+		String c = new String("apple");
+		String d = new String("apple");
+		if(c==d) System.out.println("c와 d의 참조값은 같다.");
+		else System.out.println("c와 d의 참조값은 다르다.");
+		
+		//싱글톤
+		//- 계속해서 new X
+		//  딱 한번만 new
+		//- 싱글톤을 하려면 static 영역
+	}
+}

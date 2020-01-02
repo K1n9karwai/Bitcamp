@@ -1,0 +1,30 @@
+package constructor;
+
+class ConstructorTest {
+	private String name;
+	private int age;
+	
+	public ConstructorTest() {
+		System.out.println("기본 생성자");
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+}
+
+public class ConstructorMain {
+	
+	int a;
+
+	public static void main(String[] args) {
+		
+		ConstructorTest aa = new ConstructorTest();
+		System.out.print("이름 = " + aa.getName() + "\t");
+		System.out.println("나이 = " + aa.getAge());
+		
+	}
+}

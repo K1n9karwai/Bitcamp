@@ -1,0 +1,12 @@
+package abstract_1;
+
+import java.text.NumberFormat;
+
+public class NumberTest {
+
+	public static void main(String[] args) {
+		
+		NumberFormat nf = new DecimalFormat();
+		
+	}
+}

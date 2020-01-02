@@ -1,0 +1,6 @@
+package inheritance;
+
+public class SuperTest {
+	
+	private double weight, height;
+}

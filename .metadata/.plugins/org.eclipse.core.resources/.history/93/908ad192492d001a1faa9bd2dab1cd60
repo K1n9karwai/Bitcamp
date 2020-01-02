@@ -1,0 +1,11 @@
+package abstract_1;
+
+import java.util.Scanner;
+
+public class MoneyMain {
+
+	public static void main(String[] args) {
+
+		
+	}
+}

@@ -1,0 +1,14 @@
+package class_2;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		
+		String a = "apple";
+		
+		String c = new String("apple");
+		
+		System.out.println(a + c);
+		
+	}
+}

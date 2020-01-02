@@ -1,0 +1,29 @@
+package abstract_1;
+
+import java.awt.Color;
+import java.awt.Frame;
+import java.awt.Graphics;
+
+public class WindowTest extends Frame {
+	
+	public WindowTest() {
+		
+		setForeground(Color.YELLOW);
+		setBackground(new Color(100, 150, 82));
+		setBounds(800, 250, 300, 400);
+		setVisible(true);
+	}
+	
+	@Override
+	public void paint(Graphics g) {
+//		g.drawString("이미지", 50, 80);
+		
+		//이미지 불러오기
+		g.drawImage(); //이미지 그리기
+	}
+
+	public static void main(String[] args) {
+		
+		new WindowTest();
+	}
+}

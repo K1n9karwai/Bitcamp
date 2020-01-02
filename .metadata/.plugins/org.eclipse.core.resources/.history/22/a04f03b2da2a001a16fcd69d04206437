@@ -1,0 +1,25 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class Practice1 {
+
+	public static void main(String[] args) {
+		
+		String aa;
+		String bb;
+		String cc;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("문자열 입력 : ");
+		aa = scan.next();
+		System.out.print("현재 문자열 입력 : ");
+		bb = scan.next();
+		System.out.print("바꿀 문자열 입력 : ");
+		cc = scan.next();
+		
+		if(bb.indexOf(0)) {
+			
+		}
+	}
+}

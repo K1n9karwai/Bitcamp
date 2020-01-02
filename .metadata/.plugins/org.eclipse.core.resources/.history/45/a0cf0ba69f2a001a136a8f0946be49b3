@@ -1,0 +1,33 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class MemberMain__ {
+
+	MemberDTO__[] member = new MemberDTO__[5]; // Class 생성 X, MemberDTO 가 들어갈 수 있는 방 5개짜리 배열을 생성한 것
+	Scanner scan = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		MemberMain__ aa = new MemberMain__();
+		aa.menu();
+		System.out.println("프로그램을 종료합니다.");
+
+	}
+
+	public void menu() {
+		int num=0;
+		
+		while (true) {
+			System.out.println("*************");
+			System.out.println("1. 가입");
+			System.out.println("2. 출력");
+			System.out.println("3. 수정");
+			System.out.println("4. 탈퇴");
+			System.out.println("5. 끝내기");
+			System.out.println("*************");
+			System.out.print("  번호 : ");
+			scan.nextInt();
+			if(num==5)break;
+		}//while
+	}
+}

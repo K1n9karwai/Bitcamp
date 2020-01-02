@@ -1,0 +1,12 @@
+package abstract_1;
+
+import java.util.Scanner;
+
+public class Money {
+
+	public Money() {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.print("현금 입력 : ");
+	}
+}

@@ -1,0 +1,10 @@
+package abstract_1;
+
+public class NumberTest {
+
+	public static void main(String[] args) {
+		
+		NumberFormat nf = new DecimalFormat();
+		
+	}
+}

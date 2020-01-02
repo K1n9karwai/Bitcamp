@@ -1,0 +1,21 @@
+package abstract_1;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class Today {
+
+	public static void main(String[] args) {
+		
+		Date date = new Date();
+		System.out.println("오늘 날짜 : " + date);
+		
+		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("y년 MM월 dd일 E요일 H:mm:s");
+		System.out.println("오늘 날짜 : " + simpleDateFormat.format(date));
+		System.out.println();
+		
+		//내생일 - 1991년 07월 16일
+		SimpleDateFormat input = new SimpleDateFormat("yyyyMMddHHmmss");
+		Date birth = input.parse("19910716103515");//String + Date로 변환
+	}
+}

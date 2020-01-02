@@ -1,0 +1,10 @@
+package inheritance;
+
+public class SubTest extends SuperTest {
+
+	public static void main(String[] args) {
+		
+		SubTest aa = new SubTest()
+		
+	}
+}

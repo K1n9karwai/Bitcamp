@@ -1,0 +1,17 @@
+package inheritance;
+
+class EnumColor {
+	static final String RED = "»¡°­";
+	static final String GREEN = "ÃÊ·Ï";
+	static final String BLUE = "ÆÄ¶û";
+	static final String MAGENTA = "º¸¶ó";
+}
+
+public class EnumMain {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}

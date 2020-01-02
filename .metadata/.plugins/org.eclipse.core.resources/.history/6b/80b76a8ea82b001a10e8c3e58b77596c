@@ -1,0 +1,13 @@
+package inheritance;
+
+public class Practice2 {
+
+	public static void main(String[] args) {
+		
+		EmployeeDTO[] em = new EmployeeDTO[3];
+		
+		em[0] = new EmployeeDTO("홍길동", "과장", 3000000, 500000);
+		System.out.println(em[0].getBasepay());
+		
+	}
+}

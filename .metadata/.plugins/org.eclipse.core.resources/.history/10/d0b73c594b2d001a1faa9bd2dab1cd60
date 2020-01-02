@@ -1,0 +1,33 @@
+package abstract_1;
+
+import java.text.NumberFormat;
+import java.util.Locale;
+
+public class USMoney extends Money {
+
+	private int money;
+	private int um;
+
+	public USMoney(int money) {
+		this.money = money;
+	}
+
+	@Override
+	public void calcMoney() {
+			
+
+	}
+
+	public void dispMoney() {
+		
+		NumberFormat numberFormat1 = NumberFormat.getCurrencyInstance();
+		numberFormat1.setMaximumFractionDigits(2);
+		NumberFormat numberFormat2 = NumberFormat.getCurrencyInstance(Locale.US);
+		numberFormat2.setMaximumFractionDigits(2);
+		System.out.print(numberFormat1.format(money));
+		System.out.print(" -> ");
+		System.out.println(numberFormat2.format(jm));
+
+	}
+
+}

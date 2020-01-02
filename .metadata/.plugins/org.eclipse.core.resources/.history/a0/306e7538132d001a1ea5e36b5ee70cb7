@@ -1,0 +1,12 @@
+package abstract_1;
+
+public class AbstractMain {
+
+	public static void main(String[] args) {
+		
+		AbstractTest at = new AbstractTest();
+		at.setName("ȫ�浿");
+		System.out.println(at.getName());
+		
+	}
+}

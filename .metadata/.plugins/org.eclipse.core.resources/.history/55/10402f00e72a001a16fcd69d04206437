@@ -1,0 +1,19 @@
+package class_2;
+
+public class Fruit {
+
+	private String pum;
+	private int jan, feb, mar, tot, sumJan, sumFeb,sumMar;
+	
+	public void calcTot() {
+		
+	}
+	
+	public void display() {
+		
+	}
+	
+	public static void output() {
+		
+	}
+}

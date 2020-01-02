@@ -1,0 +1,44 @@
+package abstract_1;
+
+import java.util.Scanner;
+
+public abstract class Money {
+
+	Scanner scan = new Scanner(System.in);
+
+	protected int money;
+	
+	protected Money() {
+
+	System.out.print("현금 입력 : ");
+	money = scan.nextInt();
+	while (true) {
+		System.out.print("1. 달러 2. 엔화 3. 위안 : ");
+		int num = scan.nextInt();
+
+		if (num == 1) {
+			USMoney um = new USMoney();
+			um.calcMoney();
+			um.dispMoney();
+			break;
+		} else if (num == 2) {
+			JapanMoney jm = new JapanMoney();
+			jm.calcMoney();
+			jm.dispMoney();
+			break;
+		} else if (num == 3) {
+			ChinaMoney cm = new ChinaMoney();
+			cm.calcMoney();
+			cm.dispMoney();
+			break;
+		} else {
+			System.out.println("번호를 잘못 입력하셨습니다.");
+		}
+		
+	}
+	}
+
+	public abstract void calcMoney();
+
+	public abstract void dispMoney();
+}

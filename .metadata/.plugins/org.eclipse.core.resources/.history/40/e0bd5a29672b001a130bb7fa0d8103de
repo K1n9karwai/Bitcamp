@@ -1,0 +1,18 @@
+package class_2;
+
+import java.util.Scanner;
+
+public class Practice1__ {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("문자열 입력 : ");
+		String str = scan.next();
+		
+		System.out.println("현재 문자열 입력 : ");
+		String target = scan.next();
+		
+	}
+	
+}

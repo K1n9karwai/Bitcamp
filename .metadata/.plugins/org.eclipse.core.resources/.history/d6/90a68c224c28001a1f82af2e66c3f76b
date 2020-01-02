@@ -1,0 +1,32 @@
+package class_1;
+
+class Practice1_BookShop {
+
+	private String bookName, author;
+	private int price;
+	
+	public void setBookName(String bn) {
+		bookName = bn;
+	}
+	
+	public void setAuthor(String at) {
+		author = at;
+	}
+	
+	public void setPrice(int p) {
+		price = p;
+	}
+	
+	public String getBookName() {
+		return bookName;
+	}
+	
+	public String getAuthor() {
+		return author;
+	}
+	
+	public int getPrice() {
+		return price;
+	}
+	
+}

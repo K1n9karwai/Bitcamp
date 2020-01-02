@@ -1,0 +1,12 @@
+package class_2;
+
+import static java.lang.Math.random;
+
+public class ImportStatic {
+
+	public static void main(String[] args) {
+		
+		System.out.println("³­¼ö = " + random());
+		System.out.println("Á¦°ö = " + Math.pow(2, 5));
+	}
+}

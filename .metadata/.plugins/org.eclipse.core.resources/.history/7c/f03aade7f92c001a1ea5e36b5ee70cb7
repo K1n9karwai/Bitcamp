@@ -1,0 +1,18 @@
+package inheritance;
+
+class AAA{}
+class BBB extends AAA{}
+
+public class InstanceOf {
+
+	public static void main(String[] args) {
+		
+		AA aa = new AA();
+		AA bb = aa;
+		if(aa instanceof AA) {
+			System.out.println("1. TRUE");
+		} else {
+			System.out.println("1. FALSE");
+		}
+	}
+}

@@ -1,0 +1,37 @@
+package class_2;
+
+public class Fruit {
+
+	private static String pum;
+	private static int jan;
+	private static int feb;
+	private static int mar;
+	private static int tot;
+	private static int sumJan;
+	private static int sumFeb;
+	private static int sumMar;
+	private static int cnt;
+
+	public Fruit(String pum, int jan, int feb, int mar) {
+		this.pum = pum;
+		this.jan = jan;
+		this.feb = feb;
+		this.mar = mar;
+		cnt++;
+	}
+
+	public void calcTot() {
+		tot = jan + feb + mar;
+	}
+
+	public void display() {
+		System.out.println("------------------------------");
+		System.out.println("PUM\tJAN\tFEB\tMAR\tTOT");
+		System.out.println("------------------------------");
+	}
+
+	public static void output() {
+			System.out.println(pum + "\t" + jan + "\t" + feb + "\t" + mar + "\t" + tot);
+	}
+
+}

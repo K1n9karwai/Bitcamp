@@ -1,0 +1,59 @@
+package inheritance;
+
+import java.util.Scanner;
+
+public class SalaryManager {
+	
+	Scanner scan = new Scanner(System.in);
+	EmployeeDTO[] em = new EmployeeDTO[10];
+	int cnt=0;
+	
+	public SalaryManager() {
+		
+		while (true) {
+			int number;
+			System.out.println("1. 등록 ");
+			System.out.println("2. 출력 ");
+			System.out.println("3. 수정 ");
+			System.out.println("4. 검색 ");
+			System.out.println("5. 종료 ");
+			System.out.print(" 번호 : ");
+			number = scan.nextInt();
+
+			if (number == 1) {
+				insert();
+			} else if (number == 2) {
+				list();
+			} else if (number == 3) {
+
+			} else if (number == 4) {
+
+			} else if (number == 5) {
+				System.out.println("이용해주셔서 감사합니다.");
+				break;
+			}
+		}
+
+	}
+
+	public void insert() {
+		System.out.print("이름 : ");
+		String name = scan.next();
+		System.out.print("직급 : ");
+		String position = scan.next();
+		System.out.print("기본급 : ");
+		int basepay = scan.nextInt();
+		System.out.print("수당 : ");
+		int benefit = scan.nextInt();
+	
+		em[cnt] = new EmployeeDTO(name, position, basepay, benefit);
+		cnt++;
+	}
+
+	public void list() {
+		e
+	}
+////		System.out.println(em[0] + "\t" + position + "\t" + basepay + "\t" + benefit + "\t" + taxRate + "\t" + salary);
+////	}
+}
+

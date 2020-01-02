@@ -1,0 +1,22 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class InputTest {
+	private int a;
+	private double b;
+	
+	public InputTest() {
+		System.out.println("정수 입력 : ");
+		a = scan.nextInt();
+		System.out.println("실수 입력 : ");
+		b = scan.nextDouble();
+	}
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+	}
+}

@@ -1,0 +1,13 @@
+package inheritance;
+
+public class ChildTest extends SuperTest {
+
+	private String name;
+	private int age;
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}
